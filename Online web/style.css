@@ -1,0 +1,261 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.whole
+{
+
+    width:98%;
+    margin: auto;
+   background-color:rgb(248, 234, 221);
+}
+nav{
+width:100%;
+height:100px;
+
+margin-bottom: 0.1px;
+display: flex;
+background-color:rgb(241, 216, 222);
+gap: 20px;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+.whole section
+{   
+    width: 100%;
+    height: 545px;
+}
+.sec
+{
+    margin-bottom: 5px;
+}
+footer
+{
+    width: 100%;
+    height: 250px;
+  
+}
+.nav-left{
+   
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+}
+
+.nav-left p{
+    margin: 0;
+    font-family: "Great Vibes", cursive;
+    font-size: 42px;
+    
+    color: #a34b0c;
+
+}
+.nav-right
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+     font-family: "MedievalSharp", cursive;
+      padding: 10px 15px;
+    border-radius: 20px;
+}
+.nav-right a:hover{
+    border-radius:20px ;
+                background-color:  rgb(192, 159, 166);
+
+}
+.main .sec1
+{
+    background-image: url(pupps.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.sec1 .content{
+    text-align: center;
+}
+
+.title{
+    color: #a34b0c;
+    font-size: 70px;
+    font-family: "Great Vibes", cursive;
+    transform: translateY(-20px);
+    
+}
+
+.subtitle{
+    color: black;
+    font-size: 20px;
+    transform: translateY(-85px);
+     font-size: 20px;
+     font-family: "MedievalSharp", cursive;
+    
+}
+.button
+{
+    transform: translateY(-60px);
+   display: inline-block;
+   background-color:rgb(192, 159, 166);
+   text-decoration: none;
+   color: rgb(26, 25, 25);
+   padding: 10px;
+   width: 70px;
+   border-radius: 15px;
+   font-size: 20px;
+   font-weight: 900;
+    font-family: "MedievalSharp", cursive;
+}
+.button:hover{
+    box-shadow: 0 0 10px rgb(204,87,8),
+                0 0 20px rgb(204, 87, 8),
+                0 0 40px rgb(204, 87, 8);
+}
+.story{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(248, 234, 221);
+    display: flex;
+    flex-direction: column;
+}
+
+#story-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: "MedievalSharp", cursive;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.story-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.story-text{
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: "Open Sans", sans-serif;
+}
+
+.story-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.story-image img{
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.special
+{
+      background-color:rgb(248, 234, 221);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin: auto;
+      gap: 20px;
+     
+}
+.special-sec
+{
+   
+    width: 350px;
+    height: 350px;
+      border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color:#d8a987;
+    font-family: "MedievalSharp", cursive;
+}
+.special-sec img{
+    width: 270px;
+    height: 250px;
+}
+footer {
+    width: 100%;
+    min-height: 300px;
+    background-color: #d8a987;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.footer-left {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-left iframe {
+    width: 300px;
+    height: 220px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.footer-right {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footer-right h3 {
+    margin: 0 0 15px 0;
+    font-family: "Great Vibes", cursive;
+    font-size: 40px;
+    color: #a34b0c;
+}
+
+.footer-right p {
+    margin: 8px 0;
+    font-size: 18px;
+    font-family: "MedievalSharp", cursive;
+    color: black;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: "MedievalSharp", cursive;
+}
+
+.footer-right a:hover {
+    color: #a34b0c;
+}
