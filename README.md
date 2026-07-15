@@ -7,6 +7,14 @@ A simple, full-stack-feel bakery ordering web app built with HTML, CSS, and Java
 
 ButterBliss is a front-end bakery ordering website where users log in with their name, mobile number, and address, browse a menu of baked goods, and build an order using an interactive quantity selector. Cart data is stored using the browser's localStorage, so selections persist across pages without needing a backend. This project was built to learn core concepts such as DOM manipulation, event handling, client-side session management, and data persistence with localStorage.
 
+
+
+**DEMO**
+
+
+[![Butter Bliss demo](images/demo-thumbnail.png)](https://youtu.be/6-DSc_MyA_c)
+
+
 **Features**
 
 🔐 Simple Login – Sign in using your name, mobile number, and address. No password required.
@@ -44,8 +52,4 @@ ButterBliss is a front-end bakery ordering website where users log in with their
 
 📱 Fully responsive mobile layout
 
-**DEMO**
-
-
-[![Butter Bliss demo](images/demo-thumbnail.png)](https://youtu.be/6-DSc_MyA_c)
 
